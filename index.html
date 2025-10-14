@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Darktize - Crie Canais Dark e Monetize no YouTube com Inteligência Artificial</title>
   <meta name="description" content="Crie vídeos automáticos com IA, publique em canais dark e gere renda no YouTube mesmo sem aparecer. Automatize todo o processo com a Darktize.">
   <link rel="canonical" href="https://darktize.com">
@@ -17,113 +17,139 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    :root {
-      --bg-primary: #0f0f0f;
-      --bg-secondary: #1a1a1a;
-      --text-primary: rgba(255,255,255,0.95);
-      --text-secondary: rgba(255,255,255,0.75);
-      --accent: #ff0000; /* YouTube Red */
-      --accent-dark: #cc0000;
+    :root{
+      --bg-primary:#0f0f0f;
+      --bg-secondary:#1a1a1a;
+      --text-primary:rgba(255,255,255,.95);
+      --text-secondary:rgba(255,255,255,.75);
+      --accent:#ff0000; /* YouTube Red */
+      --accent-dark:#cc0000;
     }
-    body { font-family: 'Inter', sans-serif; background: var(--bg-primary); color: var(--text-primary); }
-    .cta { background: var(--accent); color: #fff; padding: 1rem 2rem; border-radius: 0.75rem; font-weight: 700; transition: 0.3s; }
-    .cta:hover { background: var(--accent-dark); transform: translateY(-2px); }
-    .glass { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 1rem; padding: 2rem; }
+    body{font-family:'Inter',sans-serif;background:var(--bg-primary);color:var(--text-primary);}
+    .cta{background:var(--accent);color:#fff;padding:.875rem 1.25rem;border-radius:.75rem;font-weight:700;transition:.25s;}
+    .cta:hover{background:var(--accent-dark);transform:translateY(-2px);}
+    .glass{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:1rem;padding:1.25rem;}
+    @media (min-width:640px){ .glass{padding:1.5rem;} }
+    @media (min-width:1024px){ .glass{padding:2rem;} }
+    /* melhora toques no mobile */
+    a, button { -webkit-tap-highlight-color: transparent; }
   </style>
 </head>
 <body>
 
-<header class="fixed top-0 w-full bg-black/70 backdrop-blur-md border-b border-white/10 z-50">
-  <div class="max-w-6xl mx-auto flex justify-between items-center p-5">
-    <span class="text-2xl font-black text-white">Darktize</span>
-    <div class="space-x-3">
-      <a href="https://app.darktize.com/" class="text-sm text-white/70 hover:text-white">Acessar Conta</a>
-      <a href="https://pay.hotmart.com/N101680513O" class="cta text-sm">Começar Agora</a>
+<!-- HEADER -->
+<header class="fixed top-0 inset-x-0 bg-black/70 backdrop-blur-md border-b border-white/10 z-50">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="h-16 flex items-center justify-between gap-3 flex-wrap">
+      <span class="text-xl sm:text-2xl font-black text-white">Darktize</span>
+      <div class="flex items-center gap-2 sm:gap-3 flex-wrap">
+        <a href="https://app.darktize.com/" class="text-sm sm:text-base text-white/80 hover:text-white underline underline-offset-4">
+          Acessar Conta
+        </a>
+        <a href="https://pay.hotmart.com/N101680513O" class="cta text-sm sm:text-base w-full sm:w-auto text-center">
+          Começar Agora
+        </a>
+      </div>
     </div>
   </div>
 </header>
 
-<main class="pt-32 text-center px-6">
-  <section class="max-w-5xl mx-auto mb-20">
-    <h1 class="text-5xl md:text-6xl font-black mb-6 leading-tight">Crie <span class="text-red-500">Canais Dark</span> e Monetize no YouTube Usando Inteligência Artificial</h1>
-    <p class="text-xl text-white/70 mb-10">A Darktize cria vídeos automáticos, roteiros e vozes com IA para que você monte canais que geram dinheiro — mesmo sem aparecer.</p>
-    <a href="https://pay.hotmart.com/N101680513O" class="cta text-lg">COMEÇAR MEU CANAL AUTOMÁTICO</a>
+<main class="pt-[5.5rem] sm:pt-24 text-center px-4 sm:px-6">
+  <!-- HERO -->
+  <section class="max-w-5xl mx-auto mb-14 sm:mb-20">
+    <h1 class="text-3xl sm:text-5xl md:text-6xl font-black mb-4 sm:mb-6 leading-tight">
+      Crie <span class="text-red-500">Canais Dark</span> e Monetize no YouTube Usando Inteligência Artificial
+    </h1>
+    <p class="text-base sm:text-xl text-white/70 mb-6 sm:mb-10">
+      A Darktize cria vídeos automáticos, roteiros e vozes com IA para que você monte canais que geram dinheiro — mesmo sem aparecer.
+    </p>
+    <a href="https://pay.hotmart.com/N101680513O" class="cta text-base sm:text-lg w-full sm:w-auto inline-block">
+      COMEÇAR MEU CANAL AUTOMÁTICO
+    </a>
   </section>
 
-  <section class="py-20 bg-black/40">
+  <!-- BENEFÍCIOS -->
+  <section class="py-12 sm:py-20 bg-black/40">
     <div class="max-w-6xl mx-auto">
-      <h2 class="text-4xl font-extrabold mb-16">Por Que Canais Dark São a Nova Mina de Ouro do YouTube?</h2>
-      <div class="grid md:grid-cols-2 gap-8">
+      <h2 class="text-2xl sm:text-4xl font-extrabold mb-8 sm:mb-16">Por Que Canais Dark São a Nova Mina de Ouro do YouTube?</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 text-left">
         <div class="glass">
-          <h3 class="text-2xl font-bold mb-3 text-red-500">1. Não Precisa Aparecer</h3>
-          <p class="text-white/70">Você não precisa mostrar o rosto, gravar vídeos ou falar. A IA faz tudo pra você.</p>
+          <h3 class="text-lg sm:text-2xl font-bold mb-2 sm:mb-3 text-red-500">1. Não Precisa Aparecer</h3>
+          <p class="text-white/70 text-sm sm:text-base">Você não precisa mostrar o rosto, gravar vídeos ou falar. A IA faz tudo pra você.</p>
         </div>
         <div class="glass">
-          <h3 class="text-2xl font-bold mb-3 text-red-500">2. Lucros 100% Automatizados</h3>
-          <p class="text-white/70">Crie canais que publicam e monetizam vídeos todos os dias, enquanto você dorme.</p>
+          <h3 class="text-lg sm:text-2xl font-bold mb-2 sm:mb-3 text-red-500">2. Lucros 100% Automatizados</h3>
+          <p class="text-white/70 text-sm sm:text-base">Crie canais que publicam e monetizam vídeos todos os dias, enquanto você dorme.</p>
         </div>
         <div class="glass">
-          <h3 class="text-2xl font-bold mb-3 text-red-500">3. Escalável e Sem Limites</h3>
-          <p class="text-white/70">Com a Darktize, você pode ter 5, 10 ou 20 canais simultâneos com apenas alguns cliques.</p>
+          <h3 class="text-lg sm:text-2xl font-bold mb-2 sm:mb-3 text-red-500">3. Escalável e Sem Limites</h3>
+          <p class="text-white/70 text-sm sm:text-base">Com a Darktize, você pode ter 5, 10 ou 20 canais simultâneos com apenas alguns cliques.</p>
         </div>
         <div class="glass">
-          <h3 class="text-2xl font-bold mb-3 text-red-500">4. Sem Edição ou Softwares Caros</h3>
-          <p class="text-white/70">A plataforma gera o vídeo completo com narração, imagem e legenda prontos para upload.</p>
+          <h3 class="text-lg sm:text-2xl font-bold mb-2 sm:mb-3 text-red-500">4. Sem Edição ou Softwares Caros</h3>
+          <p class="text-white/70 text-sm sm:text-base">A plataforma gera o vídeo completo com narração, imagem e legenda prontos para upload.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="py-20">
+  <!-- COMO FUNCIONA -->
+  <section class="py-12 sm:py-20">
     <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-4xl font-extrabold mb-8">Como Funciona a Darktize</h2>
-      <div class="grid md:grid-cols-3 gap-8 text-left">
+      <h2 class="text-2xl sm:text-4xl font-extrabold mb-6 sm:mb-8">Como Funciona a Darktize</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 text-left">
         <div class="glass">
-          <h3 class="text-2xl font-bold mb-3 text-red-500">1. Escolha Seu Nicho</h3>
-          <p class="text-white/70">Motivacional, curiosidades, notícias, mistérios — a IA entende qualquer tema.</p>
+          <h3 class="text-lg sm:text-2xl font-bold mb-2 sm:mb-3 text-red-500">1. Escolha Seu Nicho</h3>
+          <p class="text-white/70 text-sm sm:text-base">Motivacional, curiosidades, notícias, mistérios — a IA entende qualquer tema.</p>
         </div>
         <div class="glass">
-          <h3 class="text-2xl font-bold mb-3 text-red-500">2. Gere o Vídeo Automático</h3>
-          <p class="text-white/70">O sistema cria roteiro, voz, trilha e visual. Tudo 100% IA, pronto em minutos.</p>
+          <h3 class="text-lg sm:text-2xl font-bold mb-2 sm:mb-3 text-red-500">2. Gere o Vídeo Automático</h3>
+          <p class="text-white/70 text-sm sm:text-base">O sistema cria roteiro, voz, trilha e visual. Tudo 100% IA, pronto em minutos.</p>
         </div>
         <div class="glass">
-          <h3 class="text-2xl font-bold mb-3 text-red-500">3. Publique e Monetize</h3>
-          <p class="text-white/70">Publique no YouTube e receba visualizações, inscritos e monetização recorrente.</p>
+          <h3 class="text-lg sm:text-2xl font-bold mb-2 sm:mb-3 text-red-500">3. Publique e Monetize</h3>
+          <p class="text-white/70 text-sm sm:text-base">Publique no YouTube e receba visualizações, inscritos e monetização recorrente.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="py-20 bg-black/40">
+  <!-- PROVAS/ESTATS -->
+  <section class="py-12 sm:py-20 bg-black/40">
     <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-4xl font-extrabold mb-12">Canais Criados com Darktize Já Estão Lucando no Automático</h2>
-      <div class="grid md:grid-cols-3 gap-6">
+      <h2 class="text-2xl sm:text-4xl font-extrabold mb-8 sm:mb-12">Canais Criados com Darktize Já Estão Lucando no Automático</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
         <div class="glass">
-          <p class="text-5xl font-black text-red-500 mb-3">+423%</p>
-          <p class="text-white/70">aumento médio nas visualizações</p>
+          <p class="text-3xl sm:text-5xl font-black text-red-500 mb-2 sm:mb-3">+423%</p>
+          <p class="text-white/70 text-sm sm:text-base">aumento médio nas visualizações</p>
         </div>
         <div class="glass">
-          <p class="text-5xl font-black text-red-500 mb-3">89%</p>
-          <p class="text-white/70">dos usuários monetizam em menos de 30 dias</p>
+          <p class="text-3xl sm:text-5xl font-black text-red-500 mb-2 sm:mb-3">89%</p>
+          <p class="text-white/70 text-sm sm:text-base">dos usuários monetizam em menos de 30 dias</p>
         </div>
         <div class="glass">
-          <p class="text-5xl font-black text-red-500 mb-3">∞</p>
-          <p class="text-white/70">ideias automáticas de vídeos com IA</p>
+          <p class="text-3xl sm:text-5xl font-black text-red-500 mb-2 sm:mb-3">∞</p>
+          <p class="text-white/70 text-sm sm:text-base">ideias automáticas de vídeos com IA</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="py-20">
+  <!-- CTA FINAL -->
+  <section class="py-12 sm:py-20">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-4xl font-extrabold mb-10">Garanta Seu Acesso Agora</h2>
-      <p class="text-lg text-white/70 mb-8">Experimente a Darktize por 7 dias. Se não ficar impressionado com a velocidade e qualidade dos vídeos automáticos, devolvemos seu dinheiro.</p>
-      <a href="https://pay.hotmart.com/N101680513O" class="cta text-xl">QUERO COMEÇAR AGORA</a>
+      <h2 class="text-2xl sm:text-4xl font-extrabold mb-6 sm:mb-10">Garanta Seu Acesso Agora</h2>
+      <p class="text-sm sm:text-lg text-white/70 mb-6 sm:mb-8">
+        Experimente a Darktize por 7 dias. Se não ficar impressionado com a velocidade e qualidade dos vídeos automáticos, devolvemos seu dinheiro.
+      </p>
+      <a href="https://pay.hotmart.com/N101680513O" class="cta text-base sm:text-xl w-full sm:w-auto inline-block">
+        QUERO COMEÇAR AGORA
+      </a>
     </div>
   </section>
 </main>
 
-<footer class="py-10 border-t border-white/10 text-center text-white/50 text-sm">
+<footer class="py-8 sm:py-10 border-t border-white/10 text-center text-white/50 text-xs sm:text-sm">
   © 2025 Darktize. Todos os direitos reservados.
 </footer>
 
